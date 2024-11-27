@@ -64,8 +64,8 @@ def save_results(df, output_path):
 
 # Ejecución del Proyecto
 if __name__ == "__main__":
-    file_path = "comentarios_estudiantes.xlsx"  # Cambia esto al nombre de tu archivo
-    output_path = "resultados_sentimientos.xlsx"
+    file_path = "data/comentarios_estudiantes.xlsx"  # Cambia esto al nombre de tu archivo
+    output_path = "data/resultados_sentimientos.xlsx"
 
     # Cargar datos
     data = load_data(file_path)
